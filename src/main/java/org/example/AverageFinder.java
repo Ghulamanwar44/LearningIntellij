@@ -7,6 +7,7 @@ public class AverageFinder {
         System.out.println("Average finder v0.1");
         double avg = findAverage(args);
         System.out.println("The average is " + avg);
+        System.out.println("Congrats!!!! You are connected to github");
     }
 
     private static double findAverage(String[] input){
