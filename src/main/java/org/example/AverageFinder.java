@@ -2,6 +2,8 @@ package org.example;
 
 public class AverageFinder {
     public static void main(String []args){
+        System.out.println("Upstream change verification");
+        System.out.println("Hello Git");
         System.out.println("Average finder v0.1");
         double avg = findAverage(args);
         System.out.println("The average is " + avg);
